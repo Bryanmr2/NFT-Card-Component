@@ -1,0 +1,94 @@
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.titulo {
+    color: white;
+}
+
+
+.card {
+    position: absolute;
+    top: calc(50% - 320px);
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 640px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 100px black;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 18px; 
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.description {
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.price > p {
+    margin: 0;
+    margin-left: 5px;
+    color: inherit;
+    font-weight: 600;
+}
+
+.days {
+    display: flex;
+    align-items: center;    
+}
+
+.days > p {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.divider {
+    border-top: 2px solid hsl(215, 32%, 27%);
+    margin-top: 25px;   
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.creator > img {
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#creator_name {
+    color: white;
+}
